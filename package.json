@@ -1,0 +1,15 @@
+{
+  "name": "hirup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hirup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hirup.js"
+  },
+  "author": "Moch Deden",
+  "license": "ISC",
+  "dependencies": {
+    "battery-level": "^3.0.0"
+  }
+}
