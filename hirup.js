@@ -20,7 +20,7 @@ async function main() {
         const batteryLevelValueRound = round(batteryLevelValue, 1);
 
         console.log(batteryLevelValueRound)
-        if(batteryLevelValueRound <= 0.5) {
+        if(batteryLevelValueRound <= 0.5 || batteryLevelValueRound == 1) {
             playAlarm();
         }
     }, 60000);
